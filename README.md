@@ -171,9 +171,41 @@ time slots they have indicated.)
 Note that each meeting has its own global group identifier  (as a
 URL)  which lists the members attending the meeting (see next story):
 
-# Solution
+# Solutions
+
+## Sharing with data sync : 
+
+WebDAV/CalDAV/CardDAV : 
+ Web standard, used by ownCloud for its sharing system.
+ Heavy and quite slow. A different protocol for files (WebDAV), calendar (CalDAV) and contacts (CardDAV).
+ 
+SyncThing : 
+ Still in active development, aim to provide p2p sharing between the syncthings clients with native encryption.
+ Folder oriented, it is still young but promising. An ind.ie fork exists, named Pulse.
+ 
+XDI : 
+ Pushed by Respect Network, XDI is an open protocol for p2p semantic sharing. 
+ Not compatible for the RDF syntax, it is now more focused on secure messaging; but the future of XDI is not very clear for now. 
+ 
+CouchDB replication : 
+  Based on versioning, the couchDB replication works extremely well to sync data between 2 remote server. 
+  It would be possible to use only the replication protocol with a different backend (MongoDB, filesystem...), as long   as the same versioning system is the same. 
+  
+## Torrent sharing
+
+BTSync : extremely popular, it is not open and so not usable at all.  But I quote it for the record
+
+MaidSafe : a growing project, very promising. The idea is to allocate some hard drive space and computational resources to the SAFE network, and use it to have data replicated and hashed through several remote nodes on the network. 
+Use bitcoin-like, safecoin, to retribute participating users.
+  
+## Communication
+
+XMPP : Essentialy used for instant messaging, it was originally developed by Jabber before its standardization by the IETF. It is also possible to use it to transfer files, but it is not designed for it. 
+
+Matrix : Aim to be the new standard for instant messaging through HTTP, easier to use and lighter than XMPP, with a better identity system.
+ 
 
 IndieWeb, multi-protocol, remotestorage, webintents, email, irc, rss,
-xmpp, webmention, couchdb sync api, carddav, caldav, webdav, smtp,
-syncthing, Maidsafe, Camlistore, matrix, xdi, linked data protocol,
+ webmention, smtp,
+  Camlistore, linked data protocol,
 caliopen, indiereader
