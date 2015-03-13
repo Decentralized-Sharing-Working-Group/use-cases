@@ -177,9 +177,9 @@ URL)  which lists the members attending the meeting (see next story):
 
 + #### WebDAV/CalDAV/CardDAV 
  Web standard, used by ownCloud for its sharing system.
- Heavy and quite slow. A different protocol for files (WebDAV), calendar (CalDAV) and contacts (CardDAV).
+ A different protocol for files (WebDAV), calendar (CalDAV) and contacts (CardDAV).
  
-+ #### SyncThing 
++ #### SyncThing (protocol BEP)
  Still in active development, aim to provide p2p sharing between the syncthings clients with native encryption.
  Folder oriented, it is still young but promising. An ind.ie fork exists, named Pulse.
  
@@ -188,7 +188,7 @@ URL)  which lists the members attending the meeting (see next story):
  Not compatible for the RDF syntax, it is now more focused on secure messaging; but the future of XDI is not very clear for now. 
  
 + #### CouchDB replication 
-  Based on versioning, the couchDB replication works extremely well to sync data between 2 remote server. 
+  Based on versioning (MVCC), the couchDB replication works extremely well to sync data between 2 remote server. 
   It would be possible to use only the replication protocol with a different backend (MongoDB, filesystem...), as long   as the same versioning system is the same. 
   
 ## Torrent sharing
@@ -197,7 +197,7 @@ URL)  which lists the members attending the meeting (see next story):
 Extremely popular, it is not open and so not usable at all.  But I quote it for the record
 
 + #### MaidSafe 
-A growing project, very promising. The idea is to allocate some hard drive space and computational resources to the SAFE network, and use it to have data replicated and hashed through several remote nodes on the network. 
+A growing project, very promising. The idea is to allocate some hard drive space and computational resources to the SAFE network, and use it to have data replicated and hashed through several remote nodes. 
 Use bitcoin-like, safecoin, to retribute participating users.
   
 ## Communication
