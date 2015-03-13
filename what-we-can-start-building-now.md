@@ -1,4 +1,4 @@
-#Focos on what we are going to build
+#Focus on what we are going to build
 
 Maybe it helps to focus on what we are going to build, obviously with
 a view of impacting what the user gets, but talking about what the
