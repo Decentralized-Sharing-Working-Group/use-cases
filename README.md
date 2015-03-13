@@ -207,6 +207,10 @@ Essentialy used for instant messaging, it was originally developed by Jabber bef
 
 + #### Matrix 
 Aim to be the new standard for instant messaging through HTTP, easier to use and lighter than XMPP, with a better identity system.
+
+# Other interesting groups
+ 
+ - [dataportability](http://www.dataportability.org/)
  
 __TODO - document those:__
 
