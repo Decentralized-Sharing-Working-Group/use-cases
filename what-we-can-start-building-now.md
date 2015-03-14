@@ -26,8 +26,11 @@ in the middle. I would suggest we first look at what people already
 use, and at least in my friends circle, I think ownCloud is the
 overwhelming market leader here. The ownCloud client for desktop and
 for Android already exist, so let's see if we can make more personal
-servers compatible with those clients? Trying to avoid xkcd-927 here. 
+servers compatible with those clients? Trying to avoid [xkcd-927](http://xkcd.com/927/)  here. 
+OwnCloud using WebDAV, see [sabre](http://sabre.io/) and others languages implementations to use it easily; WebDAV is not so easy to implement.
 
+* "server sync" : find a way to sync data between 2 servers running a different platform and probably a different backend. The data exchange and the changes system could be separated.
+Like device sync, a starting point could be ownCloud and dav.
 
 If you are interested in working on projects like these at or after
 FLOSS4P2P then please express this during the workshop.
