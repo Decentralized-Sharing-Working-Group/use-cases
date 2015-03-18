@@ -14,6 +14,9 @@ can immediately roll it out to our existing user base as a stand-alone
 application, or it can be shipped as  an integrated part of Known,
 ownCloud, and/or Cozy (depending on the language we write it in).
 
+* "friend discovery": Find and keep track of people you know on the
+internet, independent whether they use the same tools as you.
+
 * "reader app": same, but for a client-side reader app instead of a
 hosted one. E.g.: improve "dynamic bookmarks" (the rss reader part of
 Firefox) to displays notifications when something comes in.
